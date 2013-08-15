@@ -1,0 +1,19 @@
+name: Slenderman
+description: Adds Slenderman to the game.
+version: B0.3.4_MC1.6.2_R0.1
+main: ramirez57.Slenderman.Main
+author: Ramirez57
+commands:
+  slenderman:
+    description: Slenderman commands.
+    usage: 'slenderman reload|target|location'
+    aliases: slender
+    permission: slenderman.admin
+    permission-message: No permission for Slenderman.
+permissions:
+  slenderman.exempt:
+    description: Slenderman will not follow players with this permission.
+    default: op
+  slenderman.admin:
+    description: Admin commands for Slenderman.
+    default: op

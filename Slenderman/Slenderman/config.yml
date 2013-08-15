@@ -1,0 +1,9 @@
+aggro: 500
+slender_dimension: "world_nether"
+drums: true
+sounds: true
+anytime: false
+static: true
+worlds: ["world"]
+slow_dur: 5000
+confusion_dur: 500
